@@ -8,10 +8,17 @@ body, button, input, ::file-selector-button  {
 	color: rgb(248, 248, 248);
 }
 
-button, code, input[type="text"], ::file-selector-button {
-	background-color: transparent;
+button, input, ::file-selector-button, code {
+	border-radius: 0.3em; 
+}
+
+code, input[type="text"] {
+	padding: 0.12%;
+	background-color: rgb(47, 47, 47);
+}
+
+button, ::file-selector-button, code, input[type="text"] {
 	border: 2px solid rgb(170, 170, 170);
-	border-radius: 0.3em;
 }
 
 /* Individual elements */
@@ -38,9 +45,9 @@ div:has(label) {
 	margin-bottom: 0.27em;
 }
 
-input {
-	padding: 0.15%;
-	font-size: x-large;
+input[type="text"] {
+	font-family: monospace;
+	font-size: xx-large;
 }
 
 [id="copy-notify"] {
@@ -56,9 +63,13 @@ footer {
 /* Button */
 
 button, input[type="file"], ::file-selector-button {
-	padding: 0.1em 0.5em;
+	padding: 0.215em 0.5em;
 	font-size: large;
 	margin-bottom: 1em;
+}
+
+button, ::file-selector-button {
+	background-color: rgb(61, 61, 61);
 }
 
 button:hover, ::file-selector-button:hover {
@@ -70,10 +81,6 @@ button:active, ::file-selector-button:active {
 }
 
 /* Code block */
-
-code {
-	padding: 0.1%;
-}
 
 .tag {
 	color: rgb(255, 75, 75);
