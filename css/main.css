@@ -17,7 +17,7 @@ code, input[type="text"] {
 	background-color: rgb(47, 47, 47);
 }
 
-button, ::file-selector-button, code, input[type="text"] {
+button, ::file-selector-button, input[type="text"] {
 	border: 2px solid rgb(170, 170, 170);
 }
 
