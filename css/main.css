@@ -38,7 +38,7 @@ a:active {
 }
 
 div:has(label) {
-	margin-bottom: 0.27em;
+	margin-bottom: 0.34em;
 }
 
 input[type="text"] {
