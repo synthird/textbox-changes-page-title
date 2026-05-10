@@ -1,5 +1,5 @@
 const title = document.querySelector("title"),
-	favicon = document.querySelector("link[rel='shortcut icon']"),
+	favicon = document.querySelector("[rel='shortcut icon']"),
 	htmlCode = document.querySelector("code"),
 	titleText = document.getElementById("title-text"),
 
