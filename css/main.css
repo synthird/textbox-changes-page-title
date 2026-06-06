@@ -4,6 +4,7 @@
 
 ::selection {
 	background-color: rgb(221, 221, 221);
+	color: var(--background-colour);
 }
 
 /* Multiple elements */
