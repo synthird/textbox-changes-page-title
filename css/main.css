@@ -1,7 +1,16 @@
+:root {
+	--background-colour: rgb(26, 26, 26);
+}
+
+::selection {
+	background-color: rgb(221, 221, 221);
+	color: var(--background-colour);
+}
+
 /* Multiple elements */
 
 body, footer {
-	background-color: rgb(26, 26, 26);
+	background-color: var(--background-colour);
 }
 
 body, button, input, ::file-selector-button {
