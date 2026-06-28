@@ -1,5 +1,6 @@
 :root {
 	--background-colour: rgb(26, 26, 26);
+	--link-colour: rgb(172, 195, 242);
 }
 
 ::selection {
@@ -39,7 +40,7 @@ body {
 }
 
 a {
-	color: rgb(172, 195, 242);
+	color: var(--link-colour);
 }
 
 a:active {
