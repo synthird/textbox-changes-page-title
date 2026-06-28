@@ -45,6 +45,7 @@ a {
 
 a:active {
 	text-decoration: none;
+	border: 2px solid var(--link-colour);
 }
 
 div:has(label) {
