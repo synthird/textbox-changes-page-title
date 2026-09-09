@@ -3,8 +3,7 @@
 }
 
 ::selection {
-	background-color: rgb(221, 221, 221);
-	color: var(--background-colour);
+	background-color: rgba(145, 173, 231, 0.466);
 }
 
 /* Multiple elements */
