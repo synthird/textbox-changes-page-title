@@ -8,7 +8,7 @@ const title = document.querySelector("title"),
 	copyIcon = document.querySelector(".copy-icon"),
 	copyNotify = document.getElementById("copy-notify"),
 	setFavicon = document.getElementById("set-favicon"),
-	
+
 	clipboard = navigator.clipboard;
 
 function setHTMLCode(pageTitle) {
