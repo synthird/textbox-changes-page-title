@@ -105,20 +105,9 @@ code {
 	color: rgb(255, 75, 75);
 }
 
-/* Copy HTML code icon */
-
-.copy-icon {
-	cursor: pointer;
-	border-radius: 0.12em;
-}
-
-.copy-icon:hover {
-	background-color: rgba(253, 253, 253, 0.274);
-}
-
 /* Hiding specific elements if JavaScript is disabled */
 @media (scripting: none) {
-	div:has(input, label, p, button), .copy-icon {
+	div:has(input, label, p, button) {
 		display: none;
 	}
 }

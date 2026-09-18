@@ -5,7 +5,6 @@ const title = document.querySelector("title"),
 
 	textbox = document.getElementById("textbox"),
 	copyButton = document.getElementById("copy-button"),
-	copyIcon = document.querySelector(".copy-icon"),
 	copyNotify = document.getElementById("copy-notify"),
 	setFavicon = document.getElementById("set-favicon"),
 
@@ -42,7 +41,6 @@ textbox.addEventListener("keyup", event => {
 });
 
 copyButton.addEventListener("click", copyHTMLCode);
-copyIcon.addEventListener("click", copyHTMLCode);
 setFavicon.addEventListener("change", event => {
 	URL.revokeObjectURL(favicon.href);
 	favicon.href = URL.createObjectURL(event.target.files[0]);
