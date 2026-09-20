@@ -17,8 +17,8 @@ function setHTMLCode(pageTitle) {
 
 function copyHTMLCode() {
 	clipboard.writeText(htmlCode.innerText);
-	copyNotify.style.display = "block";
-	setTimeout(() => copyNotify.style.display = "none", 1300);
+	copyNotify.style.visibility = "visible";
+	setTimeout(() => copyNotify.style.visibility = "hidden", 1300);
 }
 
 textbox.addEventListener("keyup", event => {
