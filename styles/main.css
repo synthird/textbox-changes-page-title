@@ -58,7 +58,7 @@ input[type="text"] {
 
 /* Div */
 
-div:has(label, .html-code-label) {
+div:has(label, .non-clickable-label) {
 	margin-bottom: 0.34em;
 }
 
