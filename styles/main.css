@@ -58,7 +58,7 @@ input[type="text"] {
 
 /* Div */
 
-div:has(label, .html-code-label) {
+div:has(label, .non-clickable-label) {
 	margin-bottom: 0.34em;
 }
 
@@ -77,11 +77,11 @@ button, ::file-selector-button {
 	padding: 0.215em 0.5em;
 }
 
-button:hover, div:has(label[for="set-favicon"]:hover, input[type="file"]:hover) ::file-selector-button {
+button:hover, div:has(input[type="file"]:hover) ::file-selector-button {
 	background-color: rgb(80, 80, 80);
 }
 
-button:active, div:has(label[for="set-favicon"]:active, input[type="file"]:active) ::file-selector-button {
+button:active, div:has(input[type="file"]:active) ::file-selector-button {
 	background-color: rgb(51, 51, 51);
 }
 
